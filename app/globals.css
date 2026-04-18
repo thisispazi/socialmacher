@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 0 0% 8%;
+  --muted: 210 40% 96%;
+  --muted-foreground: 215 16% 47%;
+  --border: 214 32% 91%;
+}
+
+* {
+  border-color: hsl(var(--border));
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Smooth entrance für Sections */
+.section-fade {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 0.7s ease forwards;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Legal Pages Prose Styling */
+.prose-legal h1 {
+  @apply text-3xl md:text-4xl font-bold mb-4;
+}
+.prose-legal h2 {
+  @apply text-xl md:text-2xl font-semibold mt-10 mb-3;
+}
+.prose-legal h3 {
+  @apply text-lg font-semibold mt-6 mb-2;
+}
+.prose-legal p {
+  @apply text-[15px] leading-relaxed text-neutral-700 mb-4;
+}
+.prose-legal ul {
+  @apply list-disc pl-6 mb-4 text-[15px] leading-relaxed text-neutral-700;
+}
+.prose-legal li {
+  @apply mb-1;
+}
+.prose-legal a {
+  @apply text-brand underline underline-offset-2 hover:text-brand-dark;
+}
+.prose-legal strong {
+  @apply font-semibold text-neutral-900;
+}
