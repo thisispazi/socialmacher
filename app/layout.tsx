@@ -13,6 +13,9 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://socialmacher.at"),
+  verification: {
+    google: "1cwvePQxCVfvqvqGhGB0FjDah8LMRXqaEFAd_kVeJro",
+  },
   title: {
     default: "Socialmacher · Social Media Content für NÖ & Wien",
     template: "%s · Socialmacher",
