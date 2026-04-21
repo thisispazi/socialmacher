@@ -15,7 +15,7 @@ export default function ImpressumPage() {
       <p>Angaben gemäß § 5 ECG &amp; § 25 MedienG</p>
 
       <p>
-        <strong>Patrick Reiter</strong>
+        <strong>Patrick Belousek</strong>
         <br />
         iQoon e.U.
         <br />

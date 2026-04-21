@@ -25,7 +25,7 @@ export default function AgbPage() {
       <h2>§ 1 Geltungsbereich &amp; Vertragspartner</h2>
       <p>
         <strong>1.1</strong> Vertragspartner: Socialmacher (iQoon e.U.) Patrick
-        Reiter · Gartengasse 26 · 2630 Ternitz · Österreich
+        Belousek · Gartengasse 26 · 2630 Ternitz · Österreich
         <br />
         UID: ATU75431114 · E-Mail:{" "}
         <a href="mailto:hello@socialmacher.at">hello@socialmacher.at</a>

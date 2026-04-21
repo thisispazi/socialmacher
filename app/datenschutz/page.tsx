@@ -23,7 +23,7 @@ export default function DatenschutzPage() {
 
       <h2>1. Verantwortlicher</h2>
       <p>
-        Patrick Reiter · iQoon e.U.
+        Patrick Belousek · iQoon e.U.
         <br />
         Gartengasse 26, 2630 Ternitz, Österreich
         <br />
