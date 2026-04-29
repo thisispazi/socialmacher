@@ -217,7 +217,7 @@ export default function AgbPage() {
 
       <hr className="my-8" />
       <p className="text-sm">
-        iQoon e.U. · Patrick Reiter
+        iQoon e.U. · Patrick Belousek
         <br />
         Gartengasse 26 · 2630 Ternitz
         <br />
