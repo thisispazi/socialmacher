@@ -167,14 +167,6 @@ export function Pricing() {
             </div>
           ))}
         </div>
-
-        <div className="flex justify-center mt-12">
-          <Button asChild variant="default" size="lg">
-            <a href="#cta-form" className="gap-2">
-              3 Gratis Posts anfordern <MoveRight className="w-4 h-4" />
-            </a>
-          </Button>
-        </div>
       </div>
     </section>
   );
